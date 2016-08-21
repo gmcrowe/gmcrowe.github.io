@@ -19,9 +19,9 @@ $('#take-me-form').click(function(){
 });
 
 //Parallax Effect
-$('.parallax-window').parallax({
-	"imageSrc":"succulent.jpg",
-	"iosFix":"true"
-});
+$window = $(window);
+if( $window.width() > 768){
+$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
+}
 
 });
