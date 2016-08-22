@@ -68,11 +68,11 @@ h2 {
 	height: 1100px;
 	width: 100%;
 }
-@media screen and (max-width: 420px) {
+/*@media screen and (max-width: 460px) {
 	.parallax-slider img {
 		height: 1320px;
 	}
-}
+}*/
 
 header {
 	width: 100%;
@@ -80,9 +80,9 @@ header {
 	background-color: white;
 	opacity: .7;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	header {
-		height: 40px;
+		height: 60px;
 	}
 }
 
@@ -92,12 +92,12 @@ header {
 	display: block;
 	height: 50px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	#horizontal-list {
 		width: 100%;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 460px) and (max-width: 768px) {
 	#horizontal-list {
 		width: 70%;
 	}
@@ -111,9 +111,9 @@ header {
 	width: 25%;
 	margin-top: 1.5%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	.option {
-		font-size: 14px;
+		font-size: 22px;
 		margin-top: 3%;
 	}
 }
@@ -138,12 +138,12 @@ header {
 	height: 500px;
 	padding-top: 270px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	.main-description {
 		padding-top: 220px;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 460px) and (max-width: 768px) {
 	.main-description {
 		padding-top: 240px;
 	}
@@ -155,9 +155,9 @@ header {
 	margin-bottom: 0px;
 	letter-spacing: 2px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	.main-description h1 {
-		font-size: 22px;
+		font-size: 30px;
 	}
 }
 
@@ -219,13 +219,13 @@ header {
 	float: left;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	.bio-container img {
 		width: 96%;
 		margin-right: 2%;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 460px) and (max-width: 768px) {
 	.bio-container img {
 		width: 45%;
 	}
@@ -243,13 +243,13 @@ header {
 	float: right;
 	padding: .5% 2% 0 2%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 	#about-me {
 		width: 96%;
 		padding: .5% 0 0 2%;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 460px) and (max-width: 768px) {
 	#about-me {
 		width: 49%;
 		padding: 0;
@@ -291,7 +291,7 @@ header {
   text-align: center;
   cursor: default;
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 460px) {
 	.hovereffect {
 		width: 33.33%;
 		height: 320px;
