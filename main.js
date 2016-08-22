@@ -18,10 +18,24 @@ $('#take-me-form').click(function(){
   $.scrollTo('#see-my-form', 800);
 });
 
-//Parallax Effect
-$window = $(window);
-if( $window.width() > 768){
-$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
+// Parallax Effect
+
+var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
+if (isiOS){
+	$(".parallax-window").css({
+		"background":"url('succulent.jpg')",
+		"background-repeat":"repeat-y",
+		"background-position":"right top",
+		"background-position":"fixed"
+	});
+} else {
+	$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
+
+	$(".parallax-slider").removeClass("hidden");
+
+	$(".parallax-window").attr("data-parallax", "scroll");
+
+	$(".parallax-window").attr("data-image-src", "succulent.jpg");
 }
 
 });

@@ -4,13 +4,13 @@
 		<meta charset="utf-8">
 		<link rel="reset" href="css/reset.css">
 		<link rel="normalize" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="main.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,400i|Source+Sans+Pro:200,300,400,700" rel="stylesheet">
 		<title>gabrielle crowe</title>
 	</head>
 	<body>
-			<div class="parallax-window" data-parallax="scroll" data-image-src="succulent.jpg">
-  				<div class="parallax-slider">
+			<div class="parallax-window">
+				<div class="parallax-slider hidden">
     				<img src="succulent.jpg">
   				</div>
   				<header>
@@ -40,16 +40,50 @@
 				<div class="close"></div>
 				<div class="empty"></div>
 				
-				<div class="parallax-window" data-parallax="scroll" data-image-src="succulent.jpg">
-	  				<div class="parallax-slider">
-	    				<img src="succulent.jpg">
-		  			</div>
 					<h2 class="heading" id="my-work-section">Projects</h2>
+					<section class="portfolio clearfix">
+						<div class="work-image">
+    						<div class="hovereffect">
+						        <img class="img-responsive" src="images/my_site.jpg">
+						        <div class="overlay">
+					                <h2>Portfolio Site</h2>
+									<p> 
+										<a href="#take-me-about">Designed and developed personal portfolio site to highlight my projects</a>
+									</p> 
+					            </div>
+						    </div>
+						</div>
+					    <div class="work-image">
+    						<div class="hovereffect">
+						        <img class="img-responsive" src="images/dos_train.jpg">
+						        <div class="overlay">
+					                <h2>End User Training Delivery</h2>
+									<p> 
+										<a href="#">Managed team delivering global end user system training to 6000+ Department of State employees</a>
+									</p> 
+					            </div>
+						    </div>
+						</div>
+						<div class="work-image">
+    						<div class="hovereffect">
+						        <img class="img-responsive" src="images/KX_site.jpg">
+						        <div class="overlay">
+					                <h2>Community Blog Site</h2>
+									<p> 
+										<a href="#">Customized HTML/CSS to enhance the user experience</a>
+									</p> 
+					            </div>
+						    </div>
+						</div>
+					</section>
 
 					<div class="close"></div>
 					<div class="empty"></div>
-				</div>
-				
+
+				<div class="parallax-window">
+	  				<div class="parallax-slider hidden">
+	    				<img src="succulent.jpg">
+		  			</div>
 				<h2 class="heading" id="see-my-form">contact me</h2>
 				<section class="contact paralax-window clearfix">
 					<p class="help"><span id="question">Have a question?</span><br>
@@ -88,6 +122,7 @@
 
 				<div class="close"></div>
 			</div>
+		</div>
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
