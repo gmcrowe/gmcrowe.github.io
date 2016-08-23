@@ -25,7 +25,7 @@ if (isiOS){
 	$(".parallax-window").css({
 		"background":"url('succulent.jpg')",
 		"background-repeat":"repeat-y",
-		"background-position":"center",
+		"background-position":"center center",
 		"background-position":"fixed"
 	});
 } else {
