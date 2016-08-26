@@ -37,14 +37,17 @@
 						<p class="description">Hi there! I'm Gabrielle.</p>
 						<p class="description">I’m a front-end web-developer and IT consultant living in Washington, DC. I draw on nearly 5 years of consulting experience, working with clients in the federal and nonprofit space. A ‘jill of all trades’, I’ve worn hats in system design and delivery, organizational change management, new product design, and project management.</p>
 						<p class="description">I fell in love with web development after attending General Assembly’s FEWD class in DC, and it’s been true love ever since. Whether you need a new website, or a hand with your existing content, I can help.</p>
-						<span id="skills">Some things I love</span>
-						<ul id="skills-list">
-							<li>html5</li>
-							<li>css3</li>
-							<li>javascript</li>
-							<li>jquery</li>
-							<li>wireframing</li>
-							<li>frameworks</li>
+						<p> </p>
+						<span class="clearfix">Some things I love:</span>
+						<ul id="skills-list-1">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Javascript</li>
+							<li>jQuery</li>
+						</ul>
+						<ul id="skills-list-2">
+							<li>UX/UI Design</li>
+							<li>Frameworks</li>
 							<li>Git/Github</li>
 						</ul>
 					</div>
@@ -102,7 +105,7 @@
 					<p class="help"><span id="question">Have a question?</span><br>
 				send it my way using the form on the right. I'd love to hear from you!</p>
 
-					<form class="help clearfix" id="contact-form">
+					<form class="help clearfix" id="contact-form" action="https://formspree.io/gabrielle.crowe@icloud.com" method="POST">
 						<label class="clearfix">
 							<input type="text" placeholder="Name" name="name" id="name" required="">
 						</label>
@@ -112,10 +115,11 @@
 						<label class="clearfix">
 							<textarea type="text" placeholder="Message" name="message" id="message" required=""></textarea>
 						</label>
-						<input class="send-button" type="submit" name="Submit" value="Send">
+						<input class="send-button" type="submit" name="submit" value="Send">
+						<input type="hidden" name="_next" value="//site.io/thanks.html" />
 					</form>
 
-				<div id="centered-icons clearfix">
+				<div class="centered-icons clearfix">
 					<div class="social-icons clearfix">
 						<a href="https://github.com/gmcrowe">
 						<img class="social-icon-active" src="social_icons/git-light.png" onmouseover="this.src='social_icons/git-dark.png'" onmouseout="this.src='social_icons/git-light.png'">
