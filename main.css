@@ -349,7 +349,8 @@ header {
 }
 @media screen and (min-width: 468px) and (max-width: 760px) {
 	.hovereffect {
-		height: 250px;
+		width: 100%;
+		height: 500px;
 	}
 }
 
@@ -396,7 +397,8 @@ header {
 }
 @media screen and (min-width: 468px) and (max-width: 760px) {
 	.hovereffect img {
-		height: 250px;
+		width: 100%;
+		height: 500px;
 	}
 }
 
