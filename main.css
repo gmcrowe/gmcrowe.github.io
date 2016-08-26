@@ -214,17 +214,25 @@ header {
 	float: left;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 468px) {
 	.bio-container img {
-		width: 96%;
+		width: 93%;
 		margin-right: 2%;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+/*@media screen and (min-width: 420px) and (max-width: 768px) {
 	.bio-container img {
 		width: 45%;
 	}
+}*/
+@media screen and (min-width: 468px) and (max-width: 1024px) {
+	.bio-container img {
+		width: 42%;
+		margin-right: 2%;
+		margin-top: 1.5%;
+	}
 }
+
 
 .close {
 	width: 100%;
@@ -238,15 +246,22 @@ header {
 	float: right;
 	padding: .5% 4% 0 2%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 468px) {
 	#about-me {
 		width: 96%;
 		padding: .5% 0 0 2%;
 	}
 }
-@media screen and (min-width: 420px) and (max-width: 768px) {
+/*@media screen and (min-width: 420px) and (max-width: 768px) {
 	#about-me {
-		width: 49%;
+		width: 50%;
+		padding: 0;
+		padding-right: 2%;
+	}
+}*/
+@media screen and (min-width: 468px) and (max-width: 1024px) {
+	#about-me {
+		width: 50%;
 		padding: 0;
 		padding-right: 2%;
 	}
@@ -257,8 +272,13 @@ header {
 	font-weight: 300;
 	color: #285d52;
 	font-size: 1.1rem;
-	padding-top: 2%;
+	padding-top: 2.5%;
 	text-transform: none;
+}
+@media screen and (min-width: 468px) and (max-width: 1024px) {
+	.description {
+		font-size: .95rem;
+	}
 }
 
 #about-me span {
@@ -286,6 +306,11 @@ header {
 	padding-top: 2%;
 	text-transform: none;
 	font-weight: 300;
+}
+@media screen and (min-width: 468px) and (max-width: 1024px) {
+	#skills-list-1, #skills-list-2, #about-me span {
+		font-size: .95rem;
+	}
 }
 
 .heading {
