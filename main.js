@@ -26,7 +26,7 @@ if (isiOS){
 		"background":"url('succulent.jpg')",
 		// "background-repeat":"repeat-y",
 		// "background-position":"center",
-		"height":"1150px;",
+		"height":"500px;",
 		"width":"100%"
 	});
 } else {
