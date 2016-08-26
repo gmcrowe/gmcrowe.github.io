@@ -218,6 +218,7 @@ header {
 	.bio-container img {
 		width: 93%;
 		margin-right: 2%;
+		margin-left: 2%;
 	}
 }
 /*@media screen and (min-width: 420px) and (max-width: 768px) {
