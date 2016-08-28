@@ -24,7 +24,8 @@ var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
 if (isiOS){
 	$(".parallax-window").css({
 		"background":"url('succulent@2x.png')",
-		"-webkit-min-device-pixel-ratio":"1.5",
+		"-webkit-min-device-pixel-ratio":"2",
+		"background-position":"top"
 	});
 } else {
 	$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
