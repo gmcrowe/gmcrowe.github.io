@@ -340,9 +340,7 @@ header {
   text-align: center;
   cursor: default;
 }
-@media only and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 	.hovereffect {
 		width: 100%;
 		height: 320px;
@@ -380,13 +378,10 @@ header {
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  width: 33.333%;
+  width: 100%%;
   height: 320px;
 }
-@media screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2){
+@media only and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   	.hovereffect img {
 		width: 100%;
 		height: 320px;
