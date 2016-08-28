@@ -340,21 +340,16 @@ header {
   text-align: center;
   cursor: default;
 }
-@media screen and (max-width: 550px) {
+@media only and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 	.hovereffect {
-		width: 33.333%;
-		height: 420px;
+		width: 100%;
+		height: 320px;
 		margin: 0;
 		padding: 0;
 	}
 }
-@media screen and (min-width: 700px) and (max-width: 770px) {
-	.hovereffect {
-		width: 100%;
-		height: 500px;
-	}
-}
-
 
 .hovereffect .overlay {
   position: absolute;
@@ -385,23 +380,21 @@ header {
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  width: 100%;
+  width: 33.333%;
   height: 320px;
 }
-@media screen and (max-width: 550px) {
-	.hovereffect img {
-		width: 33.333%;
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+  	.hovereffect img {
+		width: 100%;
 		height: 320px;
 		margin: 0;
 		padding: 0;
 	}
 }
-@media screen and (min-width: 700px) and (max-width: 770px) {
-	.hovereffect img {
-		width: 100%;
-		height: 500px;
-	}
-}
+
 
 .hovereffect:hover img {
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
