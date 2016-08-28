@@ -330,7 +330,7 @@ header {
 }
 @media screen and (max-width: 375px) {
 	.empty {
-		height: 150px;
+		height: 220px;
 	}
 }
 
