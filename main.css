@@ -378,7 +378,7 @@ header {
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  width: 100%%;
+  width: 100%;
   height: 320px;
 }
 @media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
