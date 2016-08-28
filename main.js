@@ -23,9 +23,8 @@ $('#take-me-form').click(function(){
 var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
 if (isiOS){
 	$(".parallax-window").css({
-		// "background":"url('succulent@2x.png')",
-		"background-color":"#517363"
-		// "height":"auto"
+		"background":"url('succulent@2x.png')",
+		"height":"auto",
 	});
 } else {
 	$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
