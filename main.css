@@ -340,7 +340,7 @@ header {
   text-align: center;
   cursor: default;
 }
-@media only and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 	.hovereffect {
 		width: 100%;
 		height: 320px;
@@ -381,7 +381,7 @@ header {
   width: 100%%;
   height: 320px;
 }
-@media only and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   	.hovereffect img {
 		width: 100%;
 		height: 320px;
