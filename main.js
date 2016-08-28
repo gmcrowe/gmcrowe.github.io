@@ -25,7 +25,8 @@ if (isiOS){
 	$(".parallax-window").css({
 		"background":"url('succulent@2x.png')",
 		"background-position":"top",
-		"height":"auto"
+		"height":"auto",
+		"box-shadow":"inset 0 0 0 1000px rgba(0,0,0,.4)"
 	});
 } else {
 	$('.parallax-window').parallax({imageSrc:"succulent.jpg"});
