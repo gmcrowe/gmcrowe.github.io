@@ -25,7 +25,7 @@ if (isiOS){
 	$(".parallax-window").css({
 		"background":"url('succulent@2x.png')",
 		"background-size":"57px auto",
-		"box-shadow": "inset 0 0 0 1000px rgba(255,255,255,0.1)"
+		"box-shadow": "inset 0 0 0 1000px rgba(255,255,255, 0.3)"
 		// "opacity":".8"
 	});
 } else {
