@@ -16,6 +16,11 @@ body {
 	width: 100%;
 	z-index: -10;
 }
+@media screen and (max-width: 768px) {
+	body {
+		background:url(succulent-768.jpg) no-repeat center center fixed; 
+	}
+}
 
 a {
 	cursor:pointer;
