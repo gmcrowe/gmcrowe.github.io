@@ -25,7 +25,6 @@ body {
 		left: 0;
 		top: 0;
 		z-index: -10;
-		color: #285d52;
 	}
 }
 
@@ -153,7 +152,6 @@ header {
 @media screen and (max-width: 736px) {
 	.main-description h1 {
 		font-size: 30px;
-		color: #285d52;
 	}
 }
 
@@ -161,20 +159,10 @@ header {
 	display: block;
 	margin-top: 0px;
 }
-@media screen and (max-width: 736px) {
-	.main-description {
-		color: #285d52;
-	}
-}
 
 .main-description p {
 	font-size: 16px;
 	letter-spacing: 1px;
-}
-@media screen and (max-width: 736px) {
-	.main-description p {
-		color: #285d52;
-	}
 }
 
 #my-work-button {
@@ -187,18 +175,6 @@ header {
 	width: 160px;
 	transition: all .2s;
 }
-@media screen and (max-width: 736px) {
-	#my-work-button {
-		margin:auto;
-		display:block;
-		border-color: #285d52;
-		border-width: 3px;
-		border-style: solid;
-		padding: 15px;
-		width: 160px;
-		transition: none;
-	}
-}
 
 .main-description a {
 	font-size: 20px;
@@ -207,12 +183,6 @@ header {
 	font-weight: 400;
 	transition: all .2s;
 }
-@media screen and (max-width: 736px) {
-	.main-description a {
-		transition: none;
-		color: #285d52;
-	}
-}
 
 #my-work-button:hover {
 	margin:auto;
@@ -220,11 +190,6 @@ header {
 	background-color: white;
 	color: #285d52;
 	transition: all .2s;
-}
-@media screen and (max-width: 736px) {
-	#my-work-button:hover {
-		transition: none;
-	}
 }
 
 .bio-container {
