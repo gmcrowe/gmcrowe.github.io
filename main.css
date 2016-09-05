@@ -19,6 +19,7 @@ body {
 @media screen and (max-width: 480px) {
 	body {
 		background:url(light_grey.png) no-repeat fixed;
+		box-shadow: none;
 		background-size: cover;
 		width: 100%;
 		z-index: -10;
