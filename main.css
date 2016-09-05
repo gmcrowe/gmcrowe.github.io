@@ -16,9 +16,13 @@ body {
 	width: 100%;
 	z-index: -10;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 428px) {
 	body {
-		background:url(succulent_768.jpg) no-repeat center fixed; 
+		background:url(succulent_768.jpg) no-repeat center fixed;
+		background-size: cover;
+		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+		width: 100%;
+		z-index: -10;
 	}
 }
 
