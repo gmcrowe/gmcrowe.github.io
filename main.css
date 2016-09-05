@@ -18,7 +18,7 @@ body {
 }
 @media screen and (max-width: 768px) {
 	body {
-		background:url(succulent_768.jpg) no-repeat center center fixed; 
+		background:url(succulent_768.jpg) no-repeat center fixed; 
 	}
 }
 
