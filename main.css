@@ -18,7 +18,7 @@ body {
 }
 @media screen and (max-width: 736px) {
 	body {
-		background:url(flower_wide.png) no-repeat fixed;
+		background-color: white;
 		box-shadow: none;
 		background-size: cover;
 		width: 100%;
