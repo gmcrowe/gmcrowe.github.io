@@ -18,7 +18,7 @@ body {
 }
 @media screen and (max-width: 736px) {
 	body {
-		background:url(light_grey.png) no-repeat fixed;
+		background:url(pixels.jpg) no-repeat fixed;
 		box-shadow: none;
 		background-size: cover;
 		width: 100%;
