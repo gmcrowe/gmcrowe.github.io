@@ -208,6 +208,7 @@ header {
 @media screen and (max-width: 480px) {
 	.main-description a {
 		transition: none;
+		color: #285d52;
 	}
 }
 
