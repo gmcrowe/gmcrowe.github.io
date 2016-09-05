@@ -148,9 +148,10 @@ header {
 	margin-bottom: 0px;
 	letter-spacing: 2px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
 	.main-description h1 {
 		font-size: 30px;
+		color: #285d52;
 	}
 }
 
@@ -158,10 +159,20 @@ header {
 	display: block;
 	margin-top: 0px;
 }
+@media screen and (max-width: 480px) {
+	.main-description {
+		color: #285d52;
+	}
+}
 
 .main-description p {
 	font-size: 16px;
 	letter-spacing: 1px;
+}
+@media screen and (max-width: 480px) {
+	.main-description p {
+		color: #285d52;
+	}
 }
 
 #my-work-button {
