@@ -16,9 +16,9 @@ body {
 	width: 100%;
 	z-index: -10;
 }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 415px) {
 	body {
-		background:url(succulent_mobile.jpg) no-repeat fixed;
+		background:url(succulent_6plus.png) no-repeat fixed;
 		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 		background-size: 100% 100%;
 		width: 100%;
