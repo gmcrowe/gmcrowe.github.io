@@ -23,6 +23,7 @@ body {
 		background-size: cover;
 		width: 100%;
 		z-index: -10;
+		color: #285d52;
 	}
 }
 
@@ -173,6 +174,18 @@ header {
 	width: 160px;
 	transition: all .2s;
 }
+@media screen and (max-width: 480px) {
+	#my-work-button {
+		margin:auto;
+		display:block;
+		border-color: #285d52;
+		border-width: 3px;
+		border-style: solid;
+		padding: 15px;
+		width: 160px;
+		transition: none;
+	}
+}
 
 .main-description a {
 	font-size: 20px;
@@ -181,6 +194,11 @@ header {
 	font-weight: 400;
 	transition: all .2s;
 }
+@media screen and (max-width: 480px) {
+	.main-description a {
+		transition: none;
+	}
+}
 
 #my-work-button:hover {
 	margin:auto;
@@ -188,6 +206,11 @@ header {
 	background-color: white;
 	color: #285d52;
 	transition: all .2s;
+}
+@media screen and (max-width: 480px) {
+	#my-work-button:hover {
+		transition: none;
+	}
 }
 
 .bio-container {
