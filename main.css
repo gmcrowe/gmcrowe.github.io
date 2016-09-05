@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	z-index: -10;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	body {
 		background:url(light_grey.png) no-repeat fixed;
 		box-shadow: none;
@@ -148,7 +148,7 @@ header {
 	margin-bottom: 0px;
 	letter-spacing: 2px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	.main-description h1 {
 		font-size: 30px;
 		color: #285d52;
@@ -159,7 +159,7 @@ header {
 	display: block;
 	margin-top: 0px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	.main-description {
 		color: #285d52;
 	}
@@ -169,7 +169,7 @@ header {
 	font-size: 16px;
 	letter-spacing: 1px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	.main-description p {
 		color: #285d52;
 	}
@@ -185,7 +185,7 @@ header {
 	width: 160px;
 	transition: all .2s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	#my-work-button {
 		margin:auto;
 		display:block;
@@ -205,7 +205,7 @@ header {
 	font-weight: 400;
 	transition: all .2s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	.main-description a {
 		transition: none;
 		color: #285d52;
@@ -219,7 +219,7 @@ header {
 	color: #285d52;
 	transition: all .2s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
 	#my-work-button:hover {
 		transition: none;
 	}
